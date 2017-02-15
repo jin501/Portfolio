@@ -1,5 +1,4 @@
 /*-----------------------------------------1) General--------------------------------------------------*/
-
 *,
 *:after,
 *:before {
@@ -98,3 +97,32 @@ a {
 }
 /*----- typed effect ---*/
 .typed-cursor{ opacity: .25;}
+
+/*----------------------------------------- 4) Header - Navbar --------------------------------------------------*/
+.navbar{
+        border: none;
+        border-radius: 0;
+        background-color: inherit !important;
+    }
+
+  /* Navbar Underline From Center */
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #2098d1;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}

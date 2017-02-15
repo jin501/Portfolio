@@ -191,11 +191,11 @@ img { max-width: 100%; }
 }
 
 /*----------------------------------------- 4) Header --------------------------------------------------*/
-.header {
+/*.header {
   width: 100%;
   z-index: 9999;
-}
-.for-sticky {
+}*/
+/*.for-sticky {
   position: fixed;
   z-index: -1;
   bottom: 0;
@@ -214,8 +214,8 @@ img { max-width: 100%; }
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-}
-.logo-nav {
+}*/
+/*.logo-nav {
   padding: 6px 0 10px 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -224,11 +224,11 @@ img { max-width: 100%; }
   transition: all 0.3s;
   width: 45px;
   display: block;
-}
-.opacity-nav {
+}*/
+/*.opacity-nav {
   opacity: 0.8;
   z-index: 2;
-}
+}*/
 
 .navbar{
         border: none;
@@ -342,11 +342,11 @@ img { max-width: 100%; }
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
-.menu,
+/*.menu,
 .menu-list {
   height: 100%;
   overflow-x: auto;
-}
+}*/
 .menu-list {
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
@@ -638,7 +638,7 @@ ul.portfolio-image li img {
   height: 100%;
   left: 0;
   top: 0;
-  -webkit-filter: grayscale(50%);
+  -webkit-filter: grayscale(80%);
   transition: filter, transform, 0.5s;
 }
 ul.portfolio-image li .decription-wrap {
