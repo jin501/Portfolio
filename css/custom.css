@@ -1,11 +1,4 @@
-#mynav.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: #f5f5f5 !important;
-}
+
 
 /* Underline From Center */
 .navbar{
