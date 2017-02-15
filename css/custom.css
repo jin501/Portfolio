@@ -3,7 +3,7 @@
 /* Navbar Underline From Center */
 
 
-/*.hvr-underline-from-center {
+.hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
@@ -15,8 +15,8 @@
     position: relative;
     overflow: hidden;
     font-weight: 450;
-    color: black !important;
-}*/
+    color: blue;
+}
 .hvr-underline-from-center:before {
     content: "";
     position: absolute;
@@ -37,21 +37,3 @@
     left: 0;
     right: 0;
 }
-
-/* Sticky footer styles
--------------------------------------------------- */
-/*html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  /*margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  /*height: 60px;*/
-/*}*/*/*/
