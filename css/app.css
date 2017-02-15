@@ -103,10 +103,22 @@ a {
   border: none;
   border-radius: 0;
   background-color: inherit;
-  font-size: 20px;
-  margin-bottom: 50px;
+  font-size: 25px;
 }
 
+#bs-example-navbar-collapse-1{
+  background-color: inherit;
+  border: none;
+  margin-bottom: 45px;
+  /*float: right;*/
+}
+
+#icon-nav {
+  float:right;
+  margin-bottom: 300px;
+}
+
+/* center footer nav bar */
 .navbar.center .navbar-inner {
     text-align: center;
 }
@@ -124,7 +136,7 @@ a {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: white;
+    background: #e7dee5;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;

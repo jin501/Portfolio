@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
   <!-- <link href="css/responsive.css" rel="stylesheet"> -->
   <!-- <link href="css/style.css" rel="stylesheet"> -->
-  <link href="css/custom.css" rel="stylesheet">
+  <!-- <link href="css/custom.css" rel="stylesheet"> -->
   <link href="css/app.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
@@ -27,18 +27,16 @@
     <div class="section" id="#home" data-anchor="home">
       <div class="container">
 
-        <!-- <nav class="navbar-top">
-          <div class="navbar navbar-default">
-            <div class="container">
-              <div class="navbar-header">
-                <ul class="nav navbar-nav">
+        <nav class="navbar-right" id="icon-nav">
+            <div class="navbar-header">
+              <ul class="nav vertical-nav">
                 <li><a href="www.github.com/jin501"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
                 <li><a href="www.linkedin.com/in/sol-jin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
+              </ul>
             </div>
-          </div>
-        </nav> -->
+        </nav>
+
+
 
         <div class="row">
           <div class="wrap-hero-content">
@@ -63,10 +61,18 @@
       </div>
       <!--/.PRELOADER END-->
 
-      <div class="menu">
-        <nav class="footer navbar-fixed-bottom">
-          <div class="navbar navbar-default center">
-            <div class="navbar-inner">
+      <nav class="footer navbar-fixed-bottom">
+        <div class="navbar navbar-default center">
+          <div class="navbar-inner">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li><a data-scroll="" class="hvr-underline-from-center" href="#about">About</a></li>
                 <li><a class="hvr-underline-from-center" href="#resume">Who I am</a></li>
@@ -75,8 +81,8 @@
               </ul>
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
 
 
 

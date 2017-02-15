@@ -9,7 +9,9 @@
 
 
   $(document).ready(function(){
-     $('#fullpage').fullpage();
+     $('#fullpage').fullpage({
+      //  anchors: ['#home','#about']
+     });
 
     //typed js
     $(".typed").typed({
