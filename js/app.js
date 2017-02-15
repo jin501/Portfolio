@@ -13,7 +13,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is Sol", "I'm a Developer"],
+        strings: ["My Name is Sol", "I'm a Web Developer."],
         typeSpeed: 100,
         backDelay: 900,
         // loop

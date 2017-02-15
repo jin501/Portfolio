@@ -3,18 +3,16 @@
 <head>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
   <link href="css/app.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
-  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css" rel="stylesheet"> -->
 
   <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script> -->
   <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
   <script src="js/app.js" type="text/javascript"></script>
   <script src="js/typed.js" type="text/javascript"></script>
@@ -23,17 +21,11 @@
 </head>
 
 <body>
-  <ul id="main-navi">
-      <li><a href="#slide1">slide1</a></li>
-      <li><a href="#slide2">slide2</a></li>
-      <li><a href="#slide3">slide3</a></li>
-      <li><a href="#slide4">slide4</a></li>
-  </ul>
+
+
 
   <div id="fullpage">
-
-
-
+    <!-- SECTION 1: ABOUT START -->
     <div class="section" data-anchor="slide1">
       <div class="container">
         <div class="row">
@@ -44,7 +36,7 @@
               <span class="typed"></span>
               <div>
                 <br /><br />
-                <button><a data-scroll="" href="#portfolio">Portfolio</a></button>
+                <button><a data-scroll="" href="#slide4">Portfolio</a></button>
               </div>
             </div>
           </div>
@@ -59,20 +51,39 @@
       </div>
       <!--/.PRELOADER END-->
 
-    </div>
 
-    <div class="section" data-anchor="slide2">About</div>
-    <div class="section fp-auto-height-responsive">
+    </div>
+    <!--/. SECTION 1: WELCOME END -->
+
+    <!-- SECTION 2: ABOUT START -->
+    <div class="section" data-anchor="slide2">
+      About
+    </div>
+    <!--/. SECTION 2: ABOUT END -->
+
+    <!-- SECTION 3: RESUME START -->
+    <div class="section fp-auto-height-responsive" data-anchor="slide3">
       <div class="slide">Resume Slide 1</div>
       <div class="slide">Resume 2 Slide 2</div>
       <div class="slide">Resume 2 Slide 3</div>
     </div>
-    <div class="section">
+    <!--/. SECTION 3: RESUME END -->
+
+    <!-- SECTION 4: PORTFOLIO START -->
+    <div class="section" data-anchor="slide4">
       <div class="slide">Portfolio Slide 1</div>
       <div class="slide">Resume 2 Slide 2</div>
       <div class="slide">Resume 2 Slide 3</div>
     </div>
-    <div class="section">Contact</div>
+    <!--/. SECTION 4: PORTFOLIO END -->
+
+    <!-- SECTION 5: CONTACT START -->
+    <div class="section" data-anchor="slide5">Contact</div>
+    <!--/. SECTION 5: CONTACT END -->
+
   </div>
+  <!--/. FULL PAGE END -->
+
+
 </body>
 </html>
