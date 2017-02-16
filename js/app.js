@@ -10,15 +10,14 @@
 
   $(document).ready(function(){
      $('#fullpage').fullpage({
-      //  anchors: ['#home','#about']
+       anchors: ['#home', '#about', '#resume', '#portfolio']
      });
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is Sol", "I'm a Web Developer."],
+        strings: ["My Name is Sol.", "I'm a Web Developer."],
         typeSpeed: 100,
         backDelay: 900,
-        // loop
         loop: true
     });
   });
