@@ -178,6 +178,34 @@ a {
   display: block;*/
 }
 
+.about-wrap-hero-content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.about-hero-content{
+  position: absolute;
+  text-align: center;
+  min-width: 300px;
+  left: 50%;
+  top: 50%;
+  padding: 65px;
+  background: inherit;/* background to box */
+  outline: 4px double #FFFFFF;
+  outline-offset: 8px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
+
+.about-image{
+  background: url('../images/sunflowers.png');
+  background-size: 300px 200px;
+  height: 100%
+  background-repeat: no-repeat;
+}
 /*----------------------------------------- 6) Section3 - Resume --------------------------------------------------*/
 /* --- First Slide --- */
 #section3 {
