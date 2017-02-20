@@ -89,7 +89,7 @@ a {
   text-align: center;
   min-width: 300px;
   left: 50%;
-  top: 50%;
+  top: 40%;
   padding: 65px;
   background: rgba(255, 255, 255, 0.8);/* background to box */
   outline: 4px double #FFFFFF;
@@ -248,8 +248,8 @@ a {
 
 
 /* --- Second Slide --- */
-#resume2 {
-  background: url('../images/su.jpg');
+#syracuse {
+  background: url('../images/su1.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -265,7 +265,7 @@ a {
 }
 /* --- Fourth Slide --- */
 #customer-service {
-  /*background: url('../images/kripalu.png');*/
+  background: url('../images/backbend.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -273,7 +273,39 @@ a {
 }
 /* --- Fifth Slide --- */
 #tek {
+  background: url('../images/headstand.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* --- Sixth Slide --- */
+#ispossible {
   background: url('../images/kripalu.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* --- Seventh Slide --- */
+#flatiron {
+  background: url('../images/tree.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* --- Eighth Slide --- */
+#extra-curric {
+  background: url('../images/flowers.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* --- Ninth Slide --- */
+#interests {
+  background: url('../images/waterfall.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
