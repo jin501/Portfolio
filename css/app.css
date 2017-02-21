@@ -322,3 +322,12 @@ a {
   -o-background-size: cover;
   background-size: cover;
 }*/
+
+.header{
+  font-size: 30px;
+  color:black;
+}
+.slide-li{
+  color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
