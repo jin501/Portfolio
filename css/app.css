@@ -149,7 +149,7 @@ a {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: blue;
+    background: white;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -201,7 +201,7 @@ a {
 }
 
 .about-image{
-  background: url('../images/sunflowers.png');
+  /*background: url('../images/sunflowers.png');*/
   background-size: 300px 200px;
   height: 100%
   background-repeat: no-repeat;
@@ -209,7 +209,7 @@ a {
 /*----------------------------------------- 6) Section3 - Resume --------------------------------------------------*/
 /* --- First Slide --- */
 #section3 {
-  background: url('../images/yoga.jpg');
+  background: url('../images/calm.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -248,66 +248,66 @@ a {
 
 
 /* --- Second Slide --- */
-#syracuse {
+/*#syracuse {
   background: url('../images/su1.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 /* --- Third Slide --- */
-#kripalu {
+/*#kripalu {
   background: url('../images/kripalu.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 /* --- Fourth Slide --- */
-#customer-service {
+/*#customer-service {
   background: url('../images/backbend.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 /* --- Fifth Slide --- */
-#tek {
+/*#tek {
   background: url('../images/headstand.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 /* --- Sixth Slide --- */
-#ispossible {
+/*#ispossible {
   background: url('../images/kripalu.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 /* --- Seventh Slide --- */
-#flatiron {
+/*#flatiron {
   background: url('../images/tree.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 /* --- Eighth Slide --- */
-#extra-curric {
+/*#extra-curric {
   background: url('../images/flowers.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 /* --- Ninth Slide --- */
-#interests {
+/*#interests {
   background: url('../images/waterfall.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/

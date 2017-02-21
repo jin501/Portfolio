@@ -10,7 +10,8 @@
 
   $(document).ready(function(){
      $('#fullpage').fullpage({
-       anchors: ['#home', '#about', '#resume', '#portfolio']
+       anchors: ['home', 'about', 'resume', 'portfolio'],
+       menu: 'myMenu'
      });
 
     //typed js
