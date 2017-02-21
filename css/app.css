@@ -327,7 +327,32 @@ a {
   font-size: 30px;
   color:black;
 }
+.describe-header{
+  font-size: 25px;
+  color:black;
+  float:left;
+  margin-right: 10px
+}
 .slide-li{
   color: black;
   font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+}
+
+.extra-content {
+  font-size: 18px;
+  font-style: italic;
+}
+#pagebreak{
+  margin:5px;
+  height:40px;
+}
+
+#my-resume{
+  height:300px;
+}
+
+#section4{
+  background: rgb(169,169,169)
+
 }

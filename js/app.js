@@ -17,7 +17,7 @@ function showResume(){
 
   $(document).ready(function(){
      $('#fullpage').fullpage({
-       anchors: ['home', 'about', 'resume', 'portfolio'],
+       anchors: ['home', 'resume', 'portfolio'],
        menu: 'myMenu',
      });
 

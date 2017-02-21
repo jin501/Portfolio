@@ -2,12 +2,9 @@
 <html>
 <head>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
-  <!-- <link href="css/responsive.css" rel="stylesheet"> -->
-  <!-- <link href="css/style.css" rel="stylesheet"> -->
-  <!-- <link href="css/custom.css" rel="stylesheet"> -->
+  <link href="./css/jquery.fullPage.css" rel="stylesheet" type="text/css" />
   <link href="css/app.css" rel="stylesheet">
-  <!-- <link href="css/fancy-button.css" rel="stylesheet"> -->
+  <link href="css/responsive.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 
@@ -16,7 +13,7 @@
   <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
-  <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+  <script src="./js/jquery.fullPage.min.js" type="text/javascript"></script>
   <script src="js/app.js" type="text/javascript"></script>
   <script src="js/typed.js" type="text/javascript"></script>
 
@@ -72,10 +69,14 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav" id="myMenu">
                 <li><a class="hvr-underline-from-center" href="#home">Home</a></li>
-                <li><a class="hvr-underline-from-center" href="#about">About</a></li>
                 <li><a class="hvr-underline-from-center" href="#resume">Who I am</a></li>
                 <li><a class="hvr-underline-from-center" href="#portfolio">Portfolio</a></li>
-                <li><a class="hvr-underline-from-center" href="firstPage">Contact</a></li>
+              </ul>
+              <br />
+              <ul class="nav navbar-nav navbar social">
+                <li><a href="www.github.com/jin501"><i class="fa fa-lg fa-github"></i></a></li>
+                <li><a href="www.linkedin.com/in/sol-jin"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                <li><a href="mailto:soljin501@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </div>
@@ -90,245 +91,314 @@
 
 
     <!-- SECTION 2: ABOUT START -->
-    <div class="section" id="section2">
-      <div class="container">
-        <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+    <!-- <div class="section" id="section2">
+    <div class="container">
+    <div class="col-md-6 col-sm-12 col-xs-12 white-col">
 
-          <div class="row">
-            <div class="about-wrap-hero-content">
-              <div class="about-hero-content">
-                <div class="content">
-                  <p>
-                    I am a yogi and outdoors enthusiast that comes from a solid quantitative background. I am fascinated with capturing unpredictable properties of nature in software through understanding the mathematical principles behind our physical world to help us create a digital world. I have a deep passion for honing my craft of programming and contributing to the community.
-                  </p>
-                </div>
+    <div class="row">
+    <div class="about-wrap-hero-content">
+    <div class="about-hero-content">
+    <div class="content">
+    <p>
+    I am a yogi and outdoors enthusiast that comes from a solid quantitative background. I am fascinated with capturing unpredictable properties of nature in software through understanding the mathematical principles behind our physical world to help us create a digital world. I have a deep passion for honing my craft of programming and contributing to the community.
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+
+
+<!--/. SECTION 2: ABOUT END -->
+
+<!-- SECTION 3: RESUME START -->
+<div class="section fp-auto-height-responsive" id="section3">
+
+  <div class=container>
+    <nav class="navbar-top">
+      <div id="mynav" class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li><a id="hvr-underline-from-center" href="#home">Home</a></li>
+          <li><a class="active" id="hvr-underline-from-center" href="#resume">Who I am</a></li>
+          <li><a id="hvr-underline-from-center" href="#portfolio">Projects</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right social">
+          <li><a href="www.github.com/jin501"><i class="fa fa-lg fa-github"></i></a></li>
+          <li><a href="www.linkedin.com/in/sol-jin"><i class="fa fa-lg fa-linkedin"></i></a></li>
+          <li><a href="mailto:soljin501@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <!-- slide 1 -->
+  <div class="slide">
+    <div class="slide-content">
+      <div class="describe-header">
+        I am..
+      </div><br />
+      <div class='describe'>
+        <i class="fa fa-caret-right" aria-hidden="true"></i>
+        bold, sharp, eager, motivated, ambitious, a yogi, stylish, creative, logical, balanced, grounded,
+        grateful, self-aware, mindful, nature-lover, passionate, a future female leader in technology
+        <i class="fa fa-caret-left" aria-hidden="true"></i>
+      </div>
+      <h1>Not your typical developer</h1>
+      <p>
+        scroll <i class="fa fa-angle-double-right" aria-hidden="true"></i> to see my journey
+        <span style="color:white;">| |</span>
+        scroll <i class="fa fa-angle-double-down" aria-hidden="true"></i> to see my projects
+      </p>
+      <br /><br />
+      <h3>
+        View resume<br />
+        <a type="button" href='#resume/7' class="btn btn-info btn-lg">Resume</a>
+      </h3>
+    </div>
+  </div>
+
+
+  <!-- ./slide 1 end -->
+
+
+
+  <!-- slide 2 -->
+
+  <div class="slide" id="syracuse">
+
+    <div class="container">
+      <div class="row">
+        <div class="about-wrap-hero-content">
+          <div class="about-hero-content">
+            <div class="content">
+              <div class="header">
+                Education
               </div>
-            </div> <!-- about content-wrap end -->
+              <img id="pagebreak" src="images/pagebreak.png"/>
+
+              <ul style="list-style: none; display:inline">
+                <div class="slide-li">
+                  <li>
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Studied Psychology, Math, &amp; Philosophy at Syracuse University
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Fellow of the 2016 Tech Talent Pipeline's Full Stack Web Development Fellowship program at The Flatiron School
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Avid learner on Coursera, CodeCademy, Udemy, Lynda, and PluralSight
+                  </li>
+                </div>
+              </ul>
+            </div>
           </div>
-        </div>
+        </div> <!-- about content-wrap end -->
       </div>
     </div>
+  </div>
 
 
-    <!--/. SECTION 2: ABOUT END -->
-
-    <!-- SECTION 3: RESUME START -->
-    <div class="section fp-auto-height-responsive" id="section3">
-
-      <div class=container>
-        <nav class="navbar-top">
-          <div id="mynav" class="navbar navbar-default">
-            <ul class="nav navbar-nav">
-              <li><a class="hvr-underline-from-center" href="#about">About</a></li>
-              <li><a class="hvr-underline-from-center" href="#resume">Who I am</a></li>
-              <li><a class="hvr-underline-from-center" href="#portfolio">Portfolio</a></li>
-              <li><a class="hvr-underline-from-center" href="#contact">Contact</a></li>
-            </ul>
-            <!-- <ul class="nav navbar-nav right-nav">
-            <li><a href="www.github.com/jin501"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="www.linkedin.com/in/sol-jin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-          </ul> -->
-        </div>
-      </nav>
-    </div>
-
-
-    <!-- slide 1 -->
-    <div class="slide">
-
-      <div class="container">
-        <div class="slide-content">
-
-          <h1>Not your typical developer</h1>
-          <p>
-            scroll <i class="fa fa-angle-double-right" aria-hidden="true"></i> to see my journey
-            <span style="color:white;">| |</span>
-            scroll <i class="fa fa-angle-double-down" aria-hidden="true"></i> to see my projects
-          </p>
-          <br /><br />
-          <h3>
-            View resume<br />
-            <button type="button" class="btn btn-info btn-lg">Resume</button>
-          </h3>
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <!-- ./slide 1 end -->
-
-
-
-    <!-- slide 2 -->
-
-    <div class="slide" id="syracuse">
-
-      <div class="container">
-        <div class="row">
-          <div class="about-wrap-hero-content">
-            <div class="about-hero-content">
-              <div class="content">
-                <div class="header">
-                  Education
-                </div>
-                <ul style="list-style: none; display:inline">
-                  <div class="slide-li">
-                    <li>
-                      <i class="fa fa-caret-right" aria-hidden="true"></i>
-                      Studied Psychology, Math, &amp; Philosophy at Syracuse University
-                    </li>
-                    <li>
-
-                      <i class="fa fa-caret-right" aria-hidden="true"></i>
-                      Fellow of the 2016 Tech Talent Pipeline's Full Stack Web Development Fellowship program at The Flatiron School
-                    </li>
-                    <li>
-
-                      <i class="fa fa-caret-right" aria-hidden="true"></i>
-                      Avid frequenter of Coursera, CodeCademy, Udemy, Lynda, and PluralSight
-                    </li>
-
-                  </div>
-                </ul>
+  <div class="slide" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="about-wrap-hero-content">
+          <div class="about-hero-content">
+            <div class="content">
+              <div class="header">
+                Professional Experience
               </div>
-            </div>
-          </div> <!-- about content-wrap end -->
-        </div>
-      </div>
-    </div>
+              <ul style="list-style: none; display:inline">
+                <div class="slide-li">
+                  <li>
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Personal Stylist at Nordstrom
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Yoga &amp; Meditation Instructor
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Technical Recruiter in the Capital Markets &amp; Investment Banking vertical at TEKsystems
+                  </li>
 
-
-    <div class="slide" id="experience">
-      <div class="container">
-        <div class="row">
-          <div class="about-wrap-hero-content">
-            <div class="about-hero-content">
-              <div class="content">
-                <div class="header">
-                  Professional Experience
-                </div>
-                <ul style="list-style: none; display:inline">
-                  <div class="slide-li">
-                    <li>
-
-
-                      Personal Stylist at Nordstrom
-                    </li>
-                    <li>
-                      Yoga Instructor
-                    </li>
-                    <li>
-                      Technical Recruiter in the Capital Markets &amp; Investment Banking vertical at TEKsystems
-                    </li>
-                    <li>
-                      What do this experience &amp; coding have in common?
-                    </li>
-                    <li>
-                      Psychology, creativity, passion, ambition, drive, awareness, interpersonal skills, empathy for clients/end users
-                    </li>
+                  <img id="pagebreak" src="images/pagebreak.png"/>
+                  <div class="extra-content">
+                    What do these experiences &amp; coding have in common?
                   </div>
-                </ul>
-              </div>
-            </div>
-          </div> <!-- about content-wrap end -->
-        </div>
-      </div>
-    </div>
-
-    <div class="slide" id="Acheivments">
-      <div class="container">
-        <div class="row">
-          <div class="about-wrap-hero-content">
-            <div class="about-hero-content">
-              <div class="content">
-                <div class="header">
-                  Achievments
+                  Creativity, passion, ambition, drive, awareness, interpersonal skills, empathy for clients/end users
                 </div>
-                <ul style="list-style: none; display:inline">
-                  <div class="slide-li">
-                    <li>
-                      Volunteer English Teacher in Faridabad India
-                      Volunteer English Teacher at a underprivileged  SuWon South Korea
-                      Kripalu 200-hour certified Yoga Instructor
-                      “Whale Hunter” award for the largest North East Direct Placement in 2015 at TEKsystems
-                      Accepted into the CUNY Start Up Accelerator Program
-                    </li>
-                    <li>
-                    </li>
-                  </div>
-                </ul>
-              </div>
+              </ul>
             </div>
-          </div> <!-- about content-wrap end -->
-        </div>
+          </div>
+        </div> <!-- about content-wrap end -->
       </div>
     </div>
+  </div>
 
-    <div class="slide" id="tech">
-      <div class="container">
-        <div class="row">
-          <div class="about-wrap-hero-content">
-            <div class="about-hero-content">
-              <div class="content">
-                <div class="header">
-                  Tech
+  <div class="slide" id="Achievement">
+    <div class="container">
+      <div class="row">
+        <div class="about-wrap-hero-content">
+          <div class="about-hero-content">
+            <div class="content">
+              <div class="header">
+                Achievements
+              </div>
+              <ul style="list-style: none; display:inline">
+                <div class="slide-li">
+                  <li>
+                    Volunteer K-8 Teacher in Faridabad India
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Volunteer Middle School English Teacher in SuWon South Korea
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Kripalu 200-hour certified Yoga Instructor
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    “Whale Hunter” award for the largest North East Direct Placement in 2015 at TEKsystems
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Accepted into the CUNY Start Up Accelerator Program
+                  </li>
+                  <img id="pagebreak" src="images/pagebreak.png"/>
                 </div>
-                <ul style="list-style: none; display:inline">
-                  <div class="slide-li">
-                    <li>
-                      PyGotham 2015 Attendee and sponsor representative of TEKsystems
-                      PyData 2015 Attendee in New York, NY
-                      New York Tech Talent Pipeline Fellow
-                      Diversity Scholarship to React Conf 2017 in Santa Clara, CA
-                      Avid Meetup attendee
-
-                      Part of the CUNY Start Up Accelerator Program
-
-                      Google Developers Group Hackathon 2016
-                      CUNY Hackathon 2016
-                      Flatiron School Science Fair
-                      Flatiron Students Present
-                    </li>
-
-                  </div>
-                </ul>
-              </div>
+              </ul>
             </div>
-          </div> <!-- about content-wrap end -->
-        </div>
+          </div>
+        </div> <!-- about content-wrap end -->
       </div>
     </div>
+  </div>
 
-    <div class="slide" id="ispossible">
-      Resume 2 Slide 3
-    </div>
-    <div class="slide" id="flatiron">
-      Resume 2 Slide 3
-    </div>
-    <div class="slide" id="extra-curric">
-      Resume 2 Slide 3
-    </div>
-    <div class="slide" id="interests">
-      Resume 2 Slide 3
-    </div>
+  <div class="slide" id="tech">
+    <div class="container">
+      <div class="row">
+        <div class="about-wrap-hero-content">
+          <div class="about-hero-content">
+            <div class="content">
+              <div class="header">
+                Passion for Tech
+              </div>
+              <ul style="list-style: none; display:inline">
+                <div class="slide-li">
+                  <li>
+                    PyGotham 2015 Attendee &amp; Sponsor (representing TEKsystems)
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    PyData 2015 Attendee in New York, NY
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    New York Tech Talent Pipeline Fellow
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Diversity Scholarship to React Conf 2017 in Santa Clara, CA
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Avid Meetup attendee
+                    <img id="pagebreak" src="images/pagebreak.png"/>
+                    <div class="extra-content">
+                      Participated in...
+                    </div>
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Google Developers Group Hackathon 2016
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    CUNY Hackathon 2016
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Flatiron School Science Fair
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Flatiron Students Present Project Night
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    Part of the CUNY Start Up Accelerator Program
+                  </li>
 
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- about content-wrap end -->
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="coding">
+    <div class="slide-content">
+      <div class="header">
+        When I'm coding, I'm working on..
+      </div>
+      <ul style="list-style: none; display:inline">
+        <div class="slide-li">
+          <li class='describe'>
+
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+            front end, back end, full stack, prototyping, designing, architecting, modeling,
+            debugging, refactoring, committing, configuring, optimizing, creating, styling,
+            mapping, HTML, CSS, JavaScript, React, JQuery, Ruby, SQL,
+            algorithms, learning, googling
+            New York Tech Talent Pipeline Fellow
+            <i class="fa fa-caret-left" aria-hidden="true"></i>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="slide-content">
+      <div class="header">
+        When I'm not coding, you'll find me..
+      </div>
+      <ul style="list-style: none; display:inline">
+        <div class="slide-li">
+          <li class='describe'>
+
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+            hiking, meditating, practicing yoga, reading, crossFiting, learning, adventuring,
+            traveling, rock climbing, biking, traveling, creating, laughing, experiencing, eating,
+            driving, binge-watching, cooking, baking, cat-cuddling, networking, connecting, building,
+            list-making, planning, playing, daydreaming
+            <i class="fa fa-caret-left" aria-hidden="true"></i>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-content">
+      <div class="describe-header">
+        I am..
+      </div>
+      <object id="my-resume" data="./pdf/SolJinResume2.0.pdf" type="application/pdf" width="100%" height="100%">
+        <p><b>Error</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="./pdf/SolJinResume2.0.pdf">Download PDF</a>.</p>
+      </object>
+      <h1>Not your typical developer</h1>
+      <p>
+        download as <a style="color:blue;" href="./pdf/SolJinResume2.0.pdf" download>pdf</a>
+        <span style="color:white;">| |</span>
+        download as <a style="color:blue;" href="./pdf/SolJinResume2.0.pdf" download>.doc</a>
+        <span style="color:white;">| |</span>
+        scroll <i class="fa fa-angle-double-down" aria-hidden="true"></i> to see my projects
+      </p>
+    </div>
+  </div>
+
+
+</div>
+<!--/. SECTION 3: RESUME END -->
+
+<!-- SECTION 4: PORTFOLIO START -->
+<div id="section4" class="section" data-anchor="portfolio">
+  <div class="slide">
+    <div class='slide-content'>
+      <div class='header'>
+        coming soon
+      </div>
+
+      <ul class="nav navbar-nav navbar social">
+        <li><a href="www.github.com/jin501"><i class="fa fa-lg fa-github"></i></a></li>
+        <li><a href="www.linkedin.com/in/sol-jin"><i class="fa fa-lg fa-linkedin"></i></a></li>
+        <li><a href="mailto:soljin501@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
 
   </div>
-  <!--/. SECTION 3: RESUME END -->
+  <div class="slide"></div>
+</div>
+<!--/. SECTION 4: PORTFOLIO END -->
 
-  <!-- SECTION 4: PORTFOLIO START -->
-  <div id="section4" class="section" data-anchor="portfolio">
-    <div class="slide">Portfolio Slide 1</div>
-    <div class="slide">Resume 2 Slide 2</div>
-    <div class="slide">Resume 2 Slide 3</div>
-  </div>
-  <!--/. SECTION 4: PORTFOLIO END -->
-
-  <!-- SECTION 5: CONTACT START -->
-  <div class="section5" data-anchor="contact">Contact</div>
-  <!--/. SECTION 5: CONTACT END -->
+<!-- SECTION 5: CONTACT START -->
+<div class="section5" data-anchor="contact">Contact</div>
+<!--/. SECTION 5: CONTACT END -->
 
 </div>
 <!--/. FULL PAGE END -->
