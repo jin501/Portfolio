@@ -215,6 +215,17 @@ a {
   -o-background-size: cover;
   background-size: cover;
 }
+.fp-slide{
+    position:relative;
+}
+.slide-content{
+  /*background: yellow;*/
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .resume-nav{
   width: 100%;

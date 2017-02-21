@@ -1,3 +1,7 @@
+function showResume(){
+  $('#myModal').modal('show: true')
+
+}
 (function($) {
   "use strict";
   $(window).on("load", function() { // makes sure the whole site is loaded
@@ -6,12 +10,15 @@
     $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
 
   });
+  function showResume(){
+    debugger
+  }
 
 
   $(document).ready(function(){
      $('#fullpage').fullpage({
        anchors: ['home', 'about', 'resume', 'portfolio'],
-       menu: 'myMenu'
+       menu: 'myMenu',
      });
 
     //typed js
@@ -23,6 +30,5 @@
     });
 
   });
-
 
 })(jQuery);
