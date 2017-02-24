@@ -17,6 +17,7 @@
 
   $(document).ready(function(){
      $('#fullpage').fullpage({
+       scrollOverflow: true
        anchors: ['home', 'resume', 'portfolio'],
        menu: 'myMenu',
      });
