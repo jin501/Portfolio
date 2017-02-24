@@ -6,20 +6,20 @@
 
   $(window).on("load", function() { // makes sure the whole site is loaded
     //preloader
+    debugger
     $("#status").delay(2000).fadeOut(); // will first fade out the loading animation
     $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
 
   });
   function showResume(){
-    debugger
+
   }
 
 
   $(document).ready(function(){
      $('#fullpage').fullpage({
-       scrollOverflow: true
        anchors: ['home', 'resume', 'portfolio'],
-       menu: 'myMenu',
+       menu: 'myMenu'
      });
 
     //typed js
