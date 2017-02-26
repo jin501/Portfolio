@@ -19,6 +19,12 @@ html {
   height: 100%;
   width: 100%;
 }
+p {
+  font-family: 'Amatic SC';
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  font-size:25px;
+  font-weight: 700;
+}
 body {
   color: #2f2f2f;
   font-size: 16px;
@@ -88,7 +94,7 @@ a {
 .hero-content{
   position: absolute;
   text-align: center;
-  min-width: 300px;
+  min-width: 380px;
   left: 50%;
   top: 40%;
   padding: 65px;
@@ -179,33 +185,28 @@ a {
   display: block;*/
 }
 
-.about-wrap-hero-content{
+/*.about-wrap-hero-content{
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-}
-.about-hero-content{
+}*/
+/*.about-hero-content{
   position: absolute;
   text-align: center;
   min-width: 300px;
   left: 50%;
   top: 50%;
   padding: 65px;
-  background: rgba(255, 255, 255, 0.25);/* background to box */
+  background: rgba(255, 255, 255, 0.25);
   outline: 4px double #FFFFFF;
   outline-offset: 8px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-}
+}*/
 
-.about-image{
-  /*background: url('../images/sunflowers.png');*/
-  background-size: 300px 200px;
-  height: 100%
-  background-repeat: no-repeat;
-}
+
 /*----------------------------------------- 6) Section3 - Resume --------------------------------------------------*/
 /* --- All Slides --- */
 #section3 {
@@ -225,12 +226,11 @@ a {
   top:40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color:rgba(193, 184, 192, .7);
+  background-color:rgba(255, 255, 255, 0.5);
   outline: 4px double #FFFFFF;
   outline-offset: 8px;
   padding:10px;
 }
-
 /* --- First Slide --- */
 .describe-header{
   font-size: 30px;
@@ -239,8 +239,9 @@ a {
   margin-right: 10px;
 }
 .header{
-  font-size: 30px;
+  font-size: 27px;
   color:black;
+
 }
 .slide-li{
   color: black;
@@ -266,6 +267,11 @@ a {
 
 }
 
+#keys-2{
+  height:41px;
+  width:64px;
+}
+
 /*----------------------------------------- 7) Section4 - Portfolio --------------------------------------------------*/
 /* --- First Slide --- */
 #section4 {
@@ -274,4 +280,73 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/*#education{
+  overflow-y: auto;
+}*/
+
+#ed{
+  /*text-align: center;*/
+  /*position: absolute;*/
+  top:2%;
+  left: 50%;
+  /*transform: translate(-50%, -50%);*/
+  background-color:rgba(201, 242, 255, .87);
+  outline: 4px dashed #FFFFFF;
+  outline-offset: 8px;
+  padding:10px;
+  margin-bottom:50px;
+}
+#achieve{
+  /*text-align: center;*/
+  top:20% !important;
+  /*left: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+  background-color:rgba(201, 242, 255, .87);
+  outline: 4px dotted #FFFFFF;
+  outline-offset: 8px;
+  padding:10px;
+  margin:50px;
+  width: 38%;
+}
+#achieve-right{
+  float: right;
+  top:20% !important;
+  background-color:rgba(201, 242, 255, .87);
+  outline: 4px dotted #FFFFFF;
+  outline-offset: 8px;
+  padding:10px;
+  margin:50px;
+  width: 38%;
+}
+#words{
+  /*text-align: center;*/
+  top:20% !important;
+  /*left: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+  background-color:rgba(255, 255, 255, 0.5);
+  outline: 4px solid #FFFFFF;
+  outline-offset: 8px;
+  padding:10px;
+  margin:50px;
+  width: 38%;
+}
+#words-right{
+  float: right;
+  top:20% !important;
+  background-color:rgba(255, 255, 255, 0.5);
+  outline: 4px solid #FFFFFF;
+  outline-offset: 8px;
+  padding:10px;
+  margin:50px;
+  width: 38%;
+}
+
+.fp-tableCell{
+  vertical-align: top;
+}
+
+.row{
+  margin:15px;
 }
