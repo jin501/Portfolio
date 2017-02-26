@@ -28,7 +28,7 @@
        menu: 'myMenu',
       //  verticalCentered: true,
        scrollOverflow:true,
-       normalScrollElements: '#my-resume, #ed-ex, #tech', '#coding',
+       normalScrollElements: '#my-resume, #ed-ex, #tech, #coding',
       //  paddingBottom: '0',
       //  scrollingSpeed: '800',
       //  navigation: true,
