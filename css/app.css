@@ -20,7 +20,7 @@ html {
   width: 100%;
 }
 p {
-  font-family: 'Amatic SC';
+  font-family: 'Amatic SC', cursive;
   /*font-family: 'Open Sans Condensed', sans-serif;*/
   font-size:25px;
   font-weight: 700;
